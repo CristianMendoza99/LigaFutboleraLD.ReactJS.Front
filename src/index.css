@@ -1,0 +1,81 @@
+:root {
+  --bg: #f4efe4;
+  --surface: rgba(255, 252, 246, 0.86);
+  --surface-muted: rgba(145, 158, 171, 0.12);
+  --border: rgba(15, 23, 42, 0.08);
+  --text-strong: #14213d;
+  --text-base: #314158;
+  --text-soft: #617185;
+  --badge-bg: rgba(20, 83, 45, 0.1);
+  --badge-text: #166534;
+  --shadow-soft: 0 24px 50px rgba(20, 33, 61, 0.08);
+  --page-gradient:
+    radial-gradient(circle at top, rgba(255, 206, 84, 0.35), transparent 22%),
+    linear-gradient(180deg, #f7f2e8 0%, #efe8da 52%, #e8dfcf 100%);
+  --font-body: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --font-heading: 'Space Grotesk', 'Segoe UI', sans-serif;
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-base);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--page-gradient);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  color: var(--text-strong);
+}
+
+h1 {
+  font-size: clamp(2.75rem, 7vw, 4.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+h2 {
+  font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}

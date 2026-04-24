@@ -1,6 +1,10 @@
 # Liga Futbolera
 
-Base para una prueba tecnica en React + TypeScript + Vite enfocada en una tabla de posiciones de futbol. El proyecto queda completamente mockeado desde la carpeta `mocks`.
+Bienvenido a la Liga Futbolera LD.
+
+Este proyecto representa la tabla de posiciones de la liga interna de la compania, un espacio en el que multiples participantes compiten jornada a jornada para demostrar quien manda en la cancha. La idea es mostrar de forma clara y atractiva como va el torneo, que equipos suman mas puntos y como se mueve la clasificacion entre colaboradores.
+
+La base esta construida en React + TypeScript + Vite y actualmente trabaja con informacion mockeada desde la carpeta `mocks`, ideal para una prueba tecnica o para evolucionarla despues segun las necesidades del negocio.
 
 ## Scripts
 
@@ -11,36 +15,30 @@ npm run build
 npm run lint
 ```
 
-## Estructura sugerida
+## Estructura
 
 ```text
 src/
   components/
+    escudos/
     StandingsTable.tsx
-    StatusPanel.tsx
     TeamBadge.tsx
+  config/
+  hooks/
   interfaces/
     standing.ts
-  lang/
-    standings.ts
-  pages/
-    HomePage.tsx
   mocks/
     standingsMocks.ts
+  pages/
+    HomePage.tsx
+  services/
   stores/
   utils/
-    buildStandingsTable.ts
   App.tsx
   App.css
   index.css
   main.tsx
 ```
-
-## Flujo de datos
-
-1. La pagina importa `tablaPosiciones` desde `src/mocks/standingsMocks.ts`.
-2. `buildStandingsTable` ordena la informacion y calcula posicion y diferencia de gol.
-3. `StandingsTable` renderiza la clasificacion final.
 
 ## Datos mock incluidos
 

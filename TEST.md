@@ -32,6 +32,8 @@ https://mocki.io/v1/4bc26da4-0325-4ba9-a488-9e5472f97cfa
 ### 🔽 Ordenamiento
 
 - Ordenar la tabla por **mayor puntaje (descendente)**.
+- Segundo orden goles a favor
+- Tercer orden partidos jugados (equipo con menos partidos jugados)
 
 ---
 
@@ -110,7 +112,7 @@ Crear un componente llamado `Statistics`.
 
 ### 🥅 Equipo más goleado
 
-- Equipo que recibió más goles (goles en contra)  
+- Equipo que recibió más goles (en contra)  
 - Mostrar:
   - Nombre del equipo  
   - Cantidad de goles  

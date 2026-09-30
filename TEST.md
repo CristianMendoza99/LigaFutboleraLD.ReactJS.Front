@@ -24,7 +24,7 @@ El enfoque está en:
 
 - Reemplazar los datos mockeados por el consumo de la API: 
 
-https://mocki.io/v1/4bc26da4-0325-4ba9-a488-9e5472f97cfa
+https://mocki.io/v1/0dfc72b4-3b7d-4147-bf91-81528d87b7d4
 - La tabla debe renderizarse con los datos obtenidos.
 
 ---
